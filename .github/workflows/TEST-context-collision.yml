@@ -1,0 +1,10 @@
+name: TEST required context collision
+on: pull_request
+permissions:
+  contents: read
+jobs:
+  passing-collision:
+    name: trusted-cohort-authority-evolution-v8
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo Intentional TEST passing name collision
